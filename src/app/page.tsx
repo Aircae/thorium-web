@@ -9,6 +9,14 @@ import { isManifestRouteEnabled } from "./ManifestRouteEnabled";
 import "./reset.css";
 import "./home.css";
 
+interface Book {
+  title: string;
+  author: string;
+  cover: string;
+  url: string;
+  rendition: string;
+}
+
 const books = [
   {
     title: "掉入异世界也要努力活下去",
