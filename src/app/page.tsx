@@ -13,31 +13,15 @@ const books = [
   {
     title: "掉入异世界也要努力活下去",
     author: "梦丣",
-    cover: "/images/掉入异世界也要努力活下去.jpg",
-    url: "/read/掉入异世界也要努力活下去",
+    cover: "/images/book1.jpg",
+    url: "/read/book1",
     rendition: "EPUB"
   }
 ];
 
-const onlineBooks = [
-  {
-    title: "Accessible EPUB3",
-    author: "Matt Garrish",
-    cover: "/images/accessibleEpub3.jpg",
-    url: "/read/manifest/https%3A%2F%2Fpublication-server.readium.org%2Fwebpub%2FaHR0cHM6Ly9naXRodWIuY29tL0lEUEYvZXB1YjMtc2FtcGxlcy9yZWxlYXNlcy9kb3dubG9hZC8yMDIzMDcwNC9hY2Nlc3NpYmxlX2VwdWJfMy5lcHVi%2Fmanifest.json",
-    rendition: "Reflowable EPUB"
-  }
-];
+const onlineBooks = [];
 
-const webPublications = [
-  {
-    title: "Readium CSS Implementers’ Documentation",
-    author: "Jiminy Panoz",
-    cover: "/images/readium-css.jpg",
-    url: "/read/experimental/readium-css",
-    rendition: "Web Publication"
-  }
-];
+const webPublications = [];
 
 export default function Home() {
   const [isManifestEnabled, setIsManifestEnabled] = useState<boolean>(true);
