@@ -19,23 +19,9 @@ const books = [
   }
 ];
 
-const onlineBooks: Array<{
-  title: string;
-  author: string;
-  cover: string;
-  url: string;
-  rendition: string;
-}> = [];
- 
-const webPublications: Array<{
-  title: string;
-  author: string;
-  cover: string;
-  url: string;
-  rendition: string;
-}> = [];
+const onlineBooks = [] as typeof books;
 
-const webPublications = [];
+const webPublications = [] as typeof books;
 
 export default function Home() {
   const [isManifestEnabled, setIsManifestEnabled] = useState<boolean>(true);
