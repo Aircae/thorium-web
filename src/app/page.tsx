@@ -19,6 +19,16 @@ const books = [
   }
 ];
 
+const onlineBooks = [
+  {
+  }
+];
+
+const webPublications = [
+  {
+  }
+];
+
 export default function Home() {
   const [isManifestEnabled, setIsManifestEnabled] = useState<boolean>(true);
 
