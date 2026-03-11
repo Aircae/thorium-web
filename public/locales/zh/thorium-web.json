@@ -1,0 +1,96 @@
+{
+  "reader": {
+    "app": {
+	"loading": "加载中",
+      "printingDisabled": "Printing has been disabled",
+      "publicationWrapper": "You’re now in the publication.",
+      "docking": {
+        "dockingLeft": "贴左显示",
+        "dockingRight": "贴右显示",
+        "dockingEmpty": "当前为空",
+        "dockingClosed": "Is closed, contains {{ action }}",
+        "dockingCollapsed": "Is Collapsed, contains {{ action }}"
+      },
+      "header": {
+        "backLink": {
+          "trigger": "Back to the library",
+          "tooltip": "书库"
+        },
+        "label": "Top bar",
+        "runningHead": "Running head",
+        "actions": "Actions"
+      },
+      "footer": {
+        "label": "Bottom bar"
+      },
+      "progression": {
+        "wrapper": "Current progression",
+        "referenceFallback": "current chapter",
+        "pubFallback": "the publication"
+      },
+      "docker": {
+        "wrapper": "设置",
+        "dockToLeft": {
+          "trigger": "贴左显示",
+          "tooltip": "Dock left"
+        },
+        "dockToRight": {
+          "trigger": "贴右显示",
+          "tooltip": "Dock Right"
+        },
+        "popover": {
+          "trigger": "窗口显示",
+          "tooltip": "Pop over"
+        },
+        "fullscreen": {
+          "trigger": "Display over contents",
+          "tooltip": "Overlay"
+        }
+      },
+      "back": {
+        "trigger": "返回"
+      }
+    },
+    "navigation": {
+      "scroll": {
+        "wrapper": "Navigate through the publication"
+      }
+    },
+    "fullscreen": {
+      "tooltip": "全屏",
+      "trigger": "全屏模式",
+      "close": "退出全屏模式"    
+    },
+    "toc": {
+      "entries": "Entries in the table"
+    },
+    "jumpToPosition": {
+      "go": "跳转",
+      "label": "选择一个从 {{ positionStart }} 到 {{ positionEnd }} 的页数："
+    },
+    "overflowMenu": {
+      "active": {
+        "tooltip": "更多选项",
+        "trigger": "Toggle menu"
+      },
+      "hint": {
+        "tooltip": "更多选项",
+        "trigger": "Display actions"
+      }
+    },
+    "settings": {
+      "text": {
+        "advanced": {
+          "tooltip": "更多选项",
+          "trigger": "More formatting options"
+        }
+      },
+      "spacing": {
+        "advanced": {
+          "tooltip": "更多选项",
+          "trigger": "More spacing options"
+        }
+      }
+    }
+  }
+}
