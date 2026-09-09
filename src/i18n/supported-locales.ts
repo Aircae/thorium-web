@@ -2,7 +2,7 @@
  * List of supported locales in the application.
  * These locales are used for i18n configuration and language selection.
  */
-export const supportedLocales = ["en","zh-CN"] as const;
+export const supportedLocales = ["en","zh"] as const;
 
 export type SupportedLocale = typeof supportedLocales[number];
 
