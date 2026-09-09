@@ -1,0 +1,248 @@
+{
+    "common": {
+        "actions": {
+            "cancel": "取消",
+            "clear": "清除",
+            "close": "关闭",
+            "collapse": "Collapse",
+            "collapseAll": "Collapse all",
+            "decrease": "Decrease",
+            "disable": "禁用",
+            "enable": "启用",
+            "exit": "退出",
+            "expand": "Expand",
+            "expandAll": "Expand all",
+            "filter": "过滤",
+            "hide": "隐藏",
+            "hideAll": "Hide all",
+            "increase": "Increase",
+            "open": "打开",
+            "reset": "重置",
+            "search": "搜索",
+            "show": "Show",
+            "showAll": "Show all",
+            "sortBy": "Sort by",
+            "toggle": "Toggle"
+        }
+    },
+    "reader": {
+        "actions": {
+		"goBackward": "上一页",
+            "goForward": "下一页",
+            "goToNextChapter": {
+                "compact": "Next",
+                "descriptive": "Next chapter"
+            },
+            "goToNextPage": {
+                "compact": "Next",
+                "descriptive": "Next page"
+            },
+            "goToNextSentence": {
+                "compact": "Next",
+                "descriptive": "Next sentence"
+            },
+            "goToPosition": {
+                "compact": "Go to…",
+                "descriptive": "跳转到"
+            },
+            "goToPreviousChapter": {
+                "compact": "Previous",
+                "descriptive": "Previous chapter"
+            },
+            "goToPreviousPage": {
+                "compact": "Previous",
+                "descriptive": "Previous page"
+            },
+            "goToPreviousSentence": {
+                "compact": "Previous",
+                "descriptive": "Previous sentence"
+            }
+        },
+        "preferences": {
+            "brightness": "Brightness",
+            "columns": {
+                "auto": "自动",
+                "dual": {
+                    "compact": "2列",
+                    "descriptive": "Two columns"
+                },
+                "single": {
+                    "compact": "1列",
+                    "descriptive": "Single column"
+                },
+                "title": "列"
+            },
+            "fit": {
+                "auto": {
+                    "compact": "Auto"
+                },
+                "page": {
+                    "compact": "Page"
+                },
+                "title": "Fit",
+                "width": {
+                    "compact": "Width"
+                }
+            },
+            "fontFamily": {
+                "humanist": {
+                    "compact": "Humanist",
+                    "descriptive": "Humanist sans-serif"
+                },
+                "modern": {
+                    "compact": "Modern",
+                    "descriptive": "Modern serif"
+                },
+                "monospace": "Monospace",
+                "oldStyle": {
+                    "compact": "Old style",
+                    "descriptive": "Old style serif"
+                },
+                "publisher": "出版商字体",
+                "sans": "Sans-serif",
+                "title": "字体"
+            },
+            "fontSize": "字体大小",
+            "fontWeight": {
+                "bold": "加粗",
+                "normal": "正常",
+                "title": "字体粗细"
+            },
+            "hyphens": {
+                "label": "连字符",
+                "title": "连字符"
+            },
+            "layout": {
+                "paginated": "分页",
+                "scrolled": "滚动",
+                "title": "布局"
+            },
+            "letterSpacing": "正文字间距",
+            "lineHeight": {
+                "default": "默认",
+                "large": "宽松",
+                "medium": "正常",
+                "small": "紧凑",
+                "title": "行高"
+            },
+            "offsetFirstPage": "Display first page on its own",
+            "paragraphIndent": "段落缩进",
+            "paragraphSpacing": "段落间距",
+            "publisherStyles": {
+                "label": "Use original formatting",
+                "title": "Publisher styles"
+            },
+            "readingDirection": {
+                "default": {
+                    "compact": "默认",
+                    "descriptive": "Use original reading direction"
+                },
+                "ltr": {
+                    "compact": "Right",
+                    "descriptive": "Left to right"
+                },
+                "rtl": {
+                    "compact": "Left",
+                    "descriptive": "Right to left"
+                },
+                "title": "Reading direction"
+            },
+            "spacing": {
+                "presets": {
+                    "accessible": "无障碍",
+                    "balanced": "正常",
+                    "custom": "自定义",
+                    "default": "默认",
+                    "loose": "宽松",
+                    "tight": "紧凑",
+                    "title": "预设"
+                },
+                "title": "间距"
+            },
+            "spread": {
+                "always": {
+                    "compact": "Dual page"
+                },
+                "auto": {
+                    "compact": "Auto"
+                },
+                "never": {
+                    "compact": "Single page"
+                },
+                "title": "Spread"
+            },
+            "text": "字体",
+            "textAlign": {
+                "default": "默认",
+                "justify": "两端对齐",
+                "left": "左对齐",
+                "right": "右对齐",
+                "title": "对齐方式"
+            },
+            "textNormalization": {
+                "label": "删除所有文本格式",
+                "title": "文本规范化"
+            },
+            "themes": {
+                "auto": "自动",
+                "contrast1": "对比 1",
+                "contrast2": "对比 2",
+                "contrast3": "对比 3",
+                "dark": "黑色",
+                "gray": "灰色",
+                "light": "白色",
+                "paper": "纸质",
+                "sepia": "深褐色",
+                "title": "主题"
+            },
+            "title": "设置",
+            "wordSpacing": "标题字间距",
+            "zoom": "Zoom"
+        },
+        "progression": {
+            "pagesLeft": {
+                "descriptive_one": "{{ count }} page left",
+                "descriptive_other": "{{ count }} pages left"
+            },
+            "pagesLeftInChapter": {
+                "descriptive_one": "{{ count }} page left in chapter",
+                "descriptive_other": "{{ count }} pages left in chapter"
+            },
+            "pagesLeftInPublication": {
+                "descriptive_one": "{{ count }} page left in publication",
+                "descriptive_other": "{{ count }} pages left in publication"
+            },
+            "percentage": "{{ percentage }}%",
+            "positionsLeft": {
+                "compact_one": "{{ count }} left",
+                "compact_other": "{{ count }} left",
+                "descriptive_one": "{{ count }} position left",
+                "descriptive_other": "{{ count }} positions left"
+            },
+            "positionsLeftInChapter": {
+                "compact_one": "{{ count }} left in chapter",
+                "compact_other": "{{ count }} left in chapter",
+                "descriptive_one": "{{ count }} position left in chapter",
+                "descriptive_other": "{{ count }} positions left in chapter"
+            },
+            "positionsLeftInPublication": {
+                "compact_one": "{{ count }} left in publication",
+                "compact_other": "{{ count }} left in publication",
+                "descriptive_one": "{{ count }} position left in publication",
+                "descriptive_other": "{{ count }} positions left in publication"
+            },
+            "range": "{{ start }}–{{ end }}",
+            "xOfY": {
+                "compact": "{{ x }} of {{ y }}",
+                "descriptive": "{{ x }} / {{ y }} ({{ z }})"
+            }
+        },
+        "tableOfContents": {
+            "emptyState": {
+                "description": "The table of contents was not provided for this publication.",
+                "title": "No table of contents"
+            },
+            "title": "目录"
+        }
+    }
+}
